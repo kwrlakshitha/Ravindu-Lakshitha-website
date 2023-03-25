@@ -1,0 +1,255 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ravindu Lakshitha Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/49ddf2ed57.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Ravindu</span><br> Lakshitha from Sri Lanka</h1>
+            </div>
+        </div>
+    
+    </div>
+
+    <!-----------------about------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a UI/UX designer and I have a passion for creating clean, 
+                        user-friendly interfaces<br> that provide an enjoyable and seamless user experience.
+                        My design philosophy is centered<br> around simplicity and functionality.
+                        I believe that a great user experience starts with a clear understanding of user needs 
+                        and behaviors, which is why I always strive to put myself in the<br> shoes of the user 
+                        when designing interfaces.<br>
+                        If you'd like to learn more about my work or have a project in mind, feel free to get in touch!"</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/app interfaces</li>
+                                <li><span>Web Development</span><br>Developing websites</li>
+                                <li><span>App Development</span><br>Designing and Developing appps</li>
+                                <li><span>Teamwork</span><br>collaborative effort of a group to achieve a common goal</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>.....</span><br>...................</li>
+                                <li><span>.....</span><br>...................</li>
+                                <li><span>.....</span><br>...................</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>BEng (Hons) Software Engineering</span><br>University of Westminster, London, affiliated with
+                                    Informatics Institute of Technology (IIT), Sri Lanka.</li>
+                                <li><span>Diploma in Information Technology (DTEC)</span><br>Esoft Metro Campus, assured by Pearson.</li>
+                                <li><span>Java certificate course (CMJD)</span><br>Institute of Java & Software Engineering (IJSE).</li>
+                                <li><span>G.C.E. Ordinary Level & Advance Level</span><br>Prince of Wales College, Moratuwa.</li>
+                            </ul>
+                        </div>
+                </div>
+
+            </div>
+
+        </div>
+    
+    </div>
+
+    <!--------------services--------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-chrome"></i>
+                    <h2>Web Design</h2>
+                    <p>I strive for two things in design: 
+                        simplicity and clarity. 
+                        Great design is born of those two things.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Very often design is the most 
+                        immediate way of defining what 
+                        products become in people’s minds.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Above all else, align with 
+                        customers. Win when they win. 
+                        Win only when they win.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-----------------portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/wk1.png">
+                <div class="layer">
+                    <h3>Modern furnitures</h3>
+                    <p>App for a furnitures shop</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="images/wk2.png">
+                <div class="layer">
+                    <h3>Food app</h3>
+                    <p>app for a restuarant</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="images/wk3.png">
+                <div class="layer">
+                    <h3>Chothing app</h3>
+                    <p>app for a clothing shop</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+    
+</div>
+
+
+
+<!------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>kwrlakshitha@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>(+94) 704606542</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100086396967474"><i class="fa-brands fa-facebook"></i> </a>
+                    <a href="https://www.linkedin.com/in/kw-ravindu-lakshitha"><i class="fa-brands fa-linkedin"></i> </a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <a href="images/UIUX cv Ravindu.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © △RA-L. Made with <i class="fa-solid fa-code"></i> by Ravindu Lakshitha</p>
+    </div>
+</div>
+    
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwtlrfYs71v2TPgTAcQR7PNStCojNP65un79ShxulgbvPxhL-aDmIud4HIyvYE_AZEb/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
